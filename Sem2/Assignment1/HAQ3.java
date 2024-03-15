@@ -29,3 +29,15 @@ public class HAQ3 {
 	}
 
 }
+
+
+//output
+// Enter the length of arrays
+// 4
+// Enter the contents of Array A
+// 1 2 3 4
+// Enter the contents of Array B
+// 2 3 4 5
+// The contents of Array C are
+// 2 6 12 20 
+
