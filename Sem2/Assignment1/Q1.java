@@ -15,3 +15,8 @@ public class Q1 {
 	}
 
 }
+
+//output
+//Enter a number :
+//The positive integer greater then 2 from command line argument is 67
+//The number of times one must repeatedly divide this number by 2 before getting a value less than 2 is 5
