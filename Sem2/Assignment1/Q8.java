@@ -23,3 +23,12 @@ public class Q8 {
 	}
 
 }
+
+//output
+// Enter number of Row and Columns of 2D-Array: 3 3
+// Enter elements of 2D-Array: 1 2 3 2 3 4 3 4 5
+// The elements of 2D array are:
+// 1 2 3
+// 2 3 4
+// 3 4 5
+// The sum of elements of the 2D-Array is 27
