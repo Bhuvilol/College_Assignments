@@ -40,3 +40,9 @@ public class Q3 {
 	}
 
 }
+
+//output
+// Enter a number
+// 1124
+// 1124 is a spy number.
+
