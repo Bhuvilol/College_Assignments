@@ -41,3 +41,13 @@ public class HAQ5 {
 	}
 
 }
+
+//output
+// Computer generated 4X4 matrix is: 
+// 0	1	0	1	
+// 1	0	0	0	
+// 0	1	0	0	
+// 0	0	0	1	
+// The largest row index:0
+// The largest col index:1
+
