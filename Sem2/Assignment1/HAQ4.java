@@ -43,3 +43,22 @@ public class HAQ4 {
 	}
 
 }
+
+
+//output
+// Enter number row of matrices
+// 3
+// Enter number column of matrices
+// 3
+// Enter the elements of matrix a
+// 1 3 5
+// 8 9 3
+// 5 2 7
+// Enter the elements of matrix b
+// 1 6 9
+// 4 2 8
+// 0 4 2
+// the resultant matrix after addition of a and b is:
+// 2.0	9.0	14.0	
+// 12.0	11.0	11.0	
+// 5.0	6.0	9.0	
