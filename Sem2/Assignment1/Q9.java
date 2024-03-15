@@ -31,3 +31,11 @@ public class Q9 {
 	}
 
 }
+
+//output
+// Enter a 4-by-4 matrix row by row:
+// 1 2 3 4.0
+// 5 6.5 7 8
+// 9 10 11 12
+// 13 14 15 16
+// Sum of the elements in the major diagonal is 34.5
