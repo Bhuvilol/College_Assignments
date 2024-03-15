@@ -23,3 +23,19 @@ public class HAQ2 {
 	}
 
 }
+
+
+//output
+// Enter number of lines user wants to input
+// 3
+// Enter line 1
+// bhabesh is a good boy
+// Enter line 2
+// bhabesh is not a good boy
+// Enter line 3
+// bhabesh is a bad boy
+
+// After reversal the output would be :
+// - bhabesh is a bad boy
+// - bhabesh is not a good boy
+// - bhabesh is a good boy
