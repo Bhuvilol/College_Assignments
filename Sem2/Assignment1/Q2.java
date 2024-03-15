@@ -25,3 +25,10 @@ public class Q2 {
 	}
 
 }
+
+//output
+//Enter your weight in Kg(s)
+//75
+//Enter your height in metres
+//1.6
+//You are overweight
