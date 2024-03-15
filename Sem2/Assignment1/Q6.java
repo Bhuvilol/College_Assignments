@@ -22,3 +22,9 @@ public class Q6 {
 	}
 
 }
+
+//output
+// Enter a number
+// 66
+// 66 is a even number.
+
