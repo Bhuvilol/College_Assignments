@@ -25,6 +25,11 @@ public class Q5 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int num = sc.nextInt();
-		System.out.println(result(num));
+		System.out.println("Sum of digits of "+num+" until the number is a single digit is "+result(num));
 	}
 }
+
+//output 
+//Enter a number 9294
+// Sum of digits of 9294 until the number is a single digit is 6
+
