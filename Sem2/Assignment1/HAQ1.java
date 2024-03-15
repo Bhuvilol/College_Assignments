@@ -21,3 +21,9 @@ public class HAQ1 {
 	}
 
 }
+//output
+// Enter three inputs :
+// 18
+// 25
+// 7
+// 18, 25, and 7 can be used in the formula a=b-c.
