@@ -41,3 +41,12 @@ public class Q6 {
 	}
 
 }
+
+
+
+
+
+
+//output
+// Percentage secured by the CSE student : 82.0
+// Percentage secured by the NonCSE student : 79.66666666666667
