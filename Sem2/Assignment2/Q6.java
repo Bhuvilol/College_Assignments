@@ -34,10 +34,10 @@ public class Q6 {
 		// TODO Auto-generated method stub
 		CSE s1 = new CSE(70,90,88);
 		s1.getPercentage();
-		System.out.println("Percentage secured of student 1 : "+s1.percentage);
+		System.out.println("Percentage secured of CSE student : "+s1.percentage);
 		NonCSE s2 = new NonCSE(80,69,90);
 		s2.getPercentage();
-		System.out.println("Percentage secured of student 2 : "+s2.percentage);
+		System.out.println("Percentage secured of NonCSE student : "+s2.percentage);
 	}
 
 }
