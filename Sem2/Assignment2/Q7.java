@@ -30,3 +30,16 @@ public class Q7 {
 	}
 
 }
+
+
+
+
+
+
+
+//output
+// Name of person = Bhabesh
+// No. of character name comtains = 7
+// Name of person = Nibedita
+// No. of character name comtains = 8
+
