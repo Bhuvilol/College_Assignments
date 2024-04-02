@@ -17,3 +17,26 @@ public class GrandTotal extends Test implements Sports {
 	}
 
 }
+
+
+
+
+
+
+
+// output
+
+// Enter name of the student
+// Bhabesh
+// Enter roll number of the student
+// 23410210
+// Enter marks of subject 1
+// 92
+// Enter marks of subject 2
+// 88
+// Name : Bhabesh
+// Roll number : 23410210
+// Marks in subject 1 : 92
+// Marks in subject 2 : 88
+// Total marks : 180
+// Total Scores : 15
