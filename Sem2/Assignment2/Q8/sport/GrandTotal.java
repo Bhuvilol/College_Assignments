@@ -12,8 +12,8 @@ public class GrandTotal extends Test implements Sports {
 		num.showDetails();
 		GTmarks = num.mark1+num.mark2;
 		GTscores = Sports.score1+Sports.score2;
-		System.out.println("marks : "+GTmarks);
-		System.out.println("Scores : "+GTscores);
+		System.out.println("Total marks : "+GTmarks);
+		System.out.println("Total Scores : "+GTscores);
 	}
 
 }
