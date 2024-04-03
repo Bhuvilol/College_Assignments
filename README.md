@@ -9,7 +9,8 @@ Feel free to explore my version of solutions to the problems.
 ## 🗂️ Table of Contents
 Semester 1 assignment wise solution:
  - [Sem 1 ICP assignment](https://github.com/Bhuvilol/College_Assignments/tree/main/Sem1)
- Semester 2 assignment wise solution:
+
+Semester 2 assignment wise solution:
  - [Sem 2 DSA assignment](https://github.com/Bhuvilol/College_Assignments/tree/main/Sem2)
  
 
