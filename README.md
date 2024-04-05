@@ -3,7 +3,7 @@
 
 This repo provides solutions for our college lab assignment problems. Solution of assignment problems are organized into its respective folder.
 
-![](https://komarev.com/ghpvc/?username=Udbhav227&abbreviated=true)
+[![](https://visitcount.itsvg.in/api?id=Bhuvilol&label=Profile%20Views&color=1&icon=1&pretty=true)](https://visitcount.itsvg.in)
 
 
 ## 🚀 Getting Started
