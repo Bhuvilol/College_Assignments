@@ -3,6 +3,8 @@
 
 This repo provides solutions for our college lab assignment problems. Solution of assignment problems are organized into its respective folder.
 
+![](https://komarev.com/ghpvc/?username=Udbhav227&abbreviated=true)
+
 
 ## 🚀 Getting Started
 Feel free to explore my version of solutions to the problems.
