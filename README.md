@@ -21,7 +21,7 @@ Semester 2 assignment wise solution:
 This repository is open to all and only made to promote learning. This will be containing all the solutions of assignments, projects of ITER SOA university academic year 2023-2027.If you are a student working on similar assignments, feel free to use this repository as a reference. Avoid direct copying of code in order to honest learning. 
 ## 🤝 Contributing
 If you'd like to contribute or suggest improvements to the solutions, feel free to open an issue or create a pull request. 🌟
-![Logo](https://signature.freefire-name.com/img.php?f=3&t=Bhuvi)
+
 
 
 ## Authors
