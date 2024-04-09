@@ -23,8 +23,3 @@ This repository is open to all and only made to promote learning. This will be c
 If you'd like to contribute or suggest improvements to the solutions, feel free to open an issue or create a pull request. 🌟
 
 
-
-## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
-
