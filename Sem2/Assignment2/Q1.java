@@ -38,3 +38,21 @@ public class Q1 {
 
 	}
 }
+
+
+
+
+
+
+
+//output
+// Enter name
+// Lokanath Behera
+// Enter age
+// 60
+// Name of the person is Bhabesh Behera
+// Age of the person is 21
+// Name of the person is Lokanath Behera
+// Age of the person is 60
+
+// Bhabesh Behera is younger than Lokanath Behera
