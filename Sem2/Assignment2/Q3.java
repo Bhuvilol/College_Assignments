@@ -34,3 +34,30 @@ public class Q3 {
 
 }
 
+
+
+
+
+
+
+
+
+
+//output
+// Product ID is abc123
+// Total quantity ordered = 100
+// Price of one product = 50.0
+// Total price of abc123 is 5000.0
+
+// Product ID is xyz999
+// Total quantity ordered = 66
+// Price of one product = 20.0
+// Total price of xyz999 is 1320.0
+
+// Product ID is bha2003
+// Total quantity ordered = 50
+// Price of one product = 39.0
+// Total price of bha2003 is 1950.0
+
+// Total price to be paid by customer :
+// 8270.0
