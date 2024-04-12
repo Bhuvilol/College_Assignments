@@ -43,3 +43,56 @@ public class HAQ2 {
 	}
 
 }
+
+
+
+
+
+
+
+
+// output
+// Enter the details of the book 1 :
+// Enter the name of book
+// bhabesh
+// Enter the edition of the book
+// 2
+// Enter the price of the book
+// 4000
+
+// Enter the details of the book 2 :
+// Enter the name of book
+// LIKU
+// Enter the edition of the book
+// 3
+// Enter the price of the book
+// 2499
+
+// Enter the details of the book 3 :
+// Enter the name of book
+// Ritesh
+// Enter the edition of the book
+// 1
+// Enter the price of the book
+// 500
+
+// Enter the details of the book 4 :
+// Enter the name of book
+// Nibedita
+// Enter the edition of the book
+// 4
+// Enter the price of the book
+// 2400
+
+// Enter the details of the book 5 :
+// Enter the name of book
+// Rishi
+// Enter the edition of the book
+// 3
+// Enter the price of the book
+// 6000
+
+// Book having maximum price is :
+// Name of book : Rishi
+// Edition of the book : 3
+// Price of the book is : 6000.0
