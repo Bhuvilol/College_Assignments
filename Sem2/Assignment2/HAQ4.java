@@ -32,3 +32,14 @@ public class HAQ4 {
 	}
 
 }
+
+
+
+
+
+//output
+// Distance 1 : 
+// 3 metres and 40 centimetres.
+// Distance 2 : 
+// 5 metres and 88 centimetres.
+// Total distance covered = 9 metres and 28 centimetres.
