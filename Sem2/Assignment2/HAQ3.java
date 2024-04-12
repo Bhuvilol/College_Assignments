@@ -48,3 +48,19 @@ public class HAQ3{
 		Bank.minDep(b);
 	}
 }
+
+
+
+
+
+
+
+//output
+// BankName : Mahindra
+// Depositted amount : 10000
+// BankName : Kotak
+// Depositted amount : 20000
+// BankName : ICICI
+// Depositted amount : 30000
+// Total amount deposited = 60000
+// Bank with minimum deposit : Mahindra having deposit = 10000.0
