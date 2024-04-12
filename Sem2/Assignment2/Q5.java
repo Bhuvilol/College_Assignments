@@ -33,3 +33,19 @@ public class Q5 {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+//output
+// Details of employee :
+// Employee Id : 23412101
+// Employer's name : Bhabesh
+// Employer's age : 21
+// In hand Salary of Bhabesh : 70000.0
