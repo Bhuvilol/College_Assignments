@@ -38,3 +38,20 @@ public class Q2 {
 	}
 	
 }
+
+
+
+
+
+
+
+
+//output
+// 2+5j
+// Enter value of real part
+// 6
+// Enter value of imaginary part
+// 9
+// 6+9j
+// Addition of c1 and c2 is 
+// 8+14j
