@@ -56,3 +56,31 @@ public class Q4 {
 	}
 
 }
+
+
+
+
+
+
+
+//output
+// Principal : 50000
+// Rate : 11.0
+// time : 2
+// Total amount:61000.0
+
+// Principal : 10000
+// Rate : 10.0
+// time : 5
+// Total amount:15000.0
+
+// Principal : 50000
+// Rate : 10.6
+// time : 2
+// Total amount:60600.0
+
+// Principal : 40000
+// Rate : 8.5
+// time : 2
+// Total amount:46800.0
+
