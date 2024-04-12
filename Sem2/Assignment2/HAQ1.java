@@ -34,3 +34,15 @@ public class HAQ1 {
 	}
 
 }
+
+
+
+
+
+
+
+
+//output
+// Enter the amount of sales:
+// 40000
+// Commission paid is : 3200.0
