@@ -30,3 +30,15 @@ public class Q3 {
 		}
 	}
 }
+
+
+
+
+
+
+//output
+// marks : 45
+// Enter sahil's marks
+// 400
+// Exception in thread "main" MarksOutOfBoundException: Marks cannot be greater than 100
+// 	at Q3.main(Q3.java:26)
