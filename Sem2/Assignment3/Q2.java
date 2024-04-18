@@ -9,11 +9,12 @@ public class Q2 {
         try {
             System.out.println("Enter four colors:");
             for (int i = 0; i < 4; i++) {
-                C[i] = sc.nextLine();
+                C[i] = sc.next();
             }
 
             System.out.println("Convert string to integer:");
-            Integer.parseInt(C[0]);
+            int a = Integer.parseInt(C[0]);
+            System.out.println(a);
 
         } catch (NumberFormatException e) {
             System.out.println("NumberFormatException: " + e.getMessage());
@@ -21,7 +22,7 @@ public class Q2 {
 
         try {
             System.out.println("Enter one more color:");
-            C[4] = sc.nextLine();
+            C[4] = sc.next();
 
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("ArrayIndexOutOfBoundsException: " + e.getMessage());
