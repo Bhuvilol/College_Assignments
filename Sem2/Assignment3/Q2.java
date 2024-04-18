@@ -32,3 +32,29 @@ public class Q2 {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+//output
+// Enter four colors:
+// red
+// yellow
+// pink
+// green
+// Convert string to integer:
+// NumberFormatException: For input string: "red"
+// Enter one more color:
+// black
+// ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+// The colors entered are:
+// red
+// yellow
+// pink
+// green
