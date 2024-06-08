@@ -22,3 +22,12 @@ public class Q6 {
 	}
 
 }
+
+
+
+
+
+
+//output
+// Count of 2 : 3
+// Count of papa : 2
