@@ -20,3 +20,11 @@ public class Q5 {
 	}
 
 }
+
+
+
+
+//output
+// 1 2 3 4 5 
+// liku liza bhuvi 
+// 1.1 2.2 3.3 
