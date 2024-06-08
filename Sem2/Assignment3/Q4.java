@@ -46,3 +46,24 @@ public class Q4 {
 	}
 
 }
+
+
+
+
+
+
+//output
+// 1st string content: Object1
+// 2nd string content: Object2
+// After changing:
+// 1st string content: Object1
+// 2nd string content: Bhabesh
+// 1st integer content: 10
+// 2nt integer content: 20
+// After changing:
+// 1st integer content: 10
+// 2nd integer content: 69
+// Object 1 contains: java.lang.Object@85ede7b
+// Object 2 contains: java.lang.Object@85ede7b
+// Object 1 contains: 10
+// Object 2 contains: 10
