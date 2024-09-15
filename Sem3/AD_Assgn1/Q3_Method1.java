@@ -30,3 +30,12 @@ public class Q3_Method1 {
 	}
 
 }
+
+
+//Time complexity = O(n)
+//Space complexity = O(n)
+//OUTPUT
+//Before rotation : [10, 20, 30, 40, 50, 60]
+//Enter the position to rotate by : 3
+//After rotation : [40, 50, 60, 10, 20, 30]
+
