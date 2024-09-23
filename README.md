@@ -14,6 +14,9 @@ Semester 1 assignment wise solution:
 
 Semester 2 assignment wise solution:
  - [Sem 2 DSA assignment](https://github.com/Bhuvilol/College_Assignments/tree/main/Sem2)
+
+Semester 3 assignment wise solution:
+ - [Sem 3 AD assignment](https://github.com/Bhuvilol/College_Assignments/tree/main/Sem3)
  
 
 ## 📝 Usage
