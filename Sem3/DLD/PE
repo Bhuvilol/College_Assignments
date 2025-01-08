@@ -1,0 +1,51 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 19.12.2024 11:11:51
+-- Design Name: 
+-- Module Name: PE - dataflow
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity PE is
+    Port ( D3 : in STD_LOGIC;
+           D2 : in STD_LOGIC;
+           D1 : in STD_LOGIC;
+           D0 : in STD_LOGIC;
+           X : out STD_LOGIC;
+           Y : out STD_LOGIC;
+           Z : out STD_LOGIC);
+end PE;
+
+architecture dataflow of PE is
+
+begin
+Z <= D3 OR D2 Or D1 OR D0;
+Y <= D3 OR ((NOT D2) AND D1);
+X <= D3 OR D2;
+
+end dataflow;
