@@ -1,0 +1,61 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 19.12.2024 10:44:18
+-- Design Name: 
+-- Module Name: DEC - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity DEC is
+    Port ( I : in STD_LOGIC;
+           A : in STD_LOGIC;
+           B : in STD_LOGIC;
+           C : in STD_LOGIC;
+           D0 : out STD_LOGIC;
+           D1 : out STD_LOGIC;
+           D2 : out STD_LOGIC;
+           D3 : out STD_LOGIC;
+           D4 : out STD_LOGIC;
+           D5 : out STD_LOGIC;
+           D6 : out STD_LOGIC;
+           D7 : out STD_LOGIC);
+end DEC;
+
+architecture Behavioral of DEC is
+
+begin
+    D0 <= I AND (NOT A) AND (NOT B) AND (NOT C);
+    D1 <= I AND (NOT A) AND (NOT B) AND C;
+    D2 <= I AND (NOT A) AND B AND (NOT C);
+    D3 <= I AND (NOT A) AND B AND C;
+    D4 <= I AND A AND (NOT B) AND (NOT C);
+    D5 <= I AND A AND (NOT B) AND C;
+    D6 <= I AND A AND B AND (NOT C);
+    D7 <= I AND A AND B AND C;  
+
+end Behavioral;
