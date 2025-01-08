@@ -1,0 +1,64 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 19.12.2024 10:48:23
+-- Design Name: 
+-- Module Name: FAfromDecoder - dataflow
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity FAfromDecoder is
+    Port ( A : in STD_LOGIC;
+           B : in STD_LOGIC;
+           CIN : in STD_LOGIC;
+           S : out STD_LOGIC;
+           COUT : out STD_LOGIC);
+end FAfromDecoder;
+
+architecture dataflow of FAfromDecoder is
+component DEC is
+    Port ( I : in STD_LOGIC;
+           A : in STD_LOGIC;
+           B : in STD_LOGIC;
+           C : in STD_LOGIC;
+           D0 : out STD_LOGIC;
+           D1 : out STD_LOGIC;
+           D2 : out STD_LOGIC;
+           D3 : out STD_LOGIC;
+           D4 : out STD_LOGIC;
+           D5 : out STD_LOGIC;
+           D6 : out STD_LOGIC;
+           D7 : out STD_LOGIC);
+end component;
+SIGNAL ENABLE,Y0,Y1,Y2,Y3,Y4,Y5,Y6,Y7:STD_LOGIC;
+begin
+ENABLE <= '1';
+DEC1: DEC PORT MAP(ENABLE,A,B,CIN,Y0,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+S <= ((Y1 OR Y2) OR (Y4 OR Y7));
+COUT <= Y3 OR Y5 OR Y6 OR Y7;
+
+end dataflow;
