@@ -1,0 +1,58 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 11.12.2024 20:36:07
+-- Design Name: 
+-- Module Name: TBPA_fromFA - dataflow
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity TBPA_fromFA is
+    Port ( a0 : in STD_LOGIC;
+           a1 : in STD_LOGIC;
+           b0 : in STD_LOGIC;
+           b1 : in STD_LOGIC;
+           s0 : out STD_LOGIC;
+           s1 : out STD_LOGIC;
+           ca : out STD_LOGIC);
+end TBPA_fromFA;
+
+architecture dataflow of TBPA_fromFA is
+    component FA is
+        Port ( A : in STD_LOGIC;
+           B : in STD_LOGIC;
+           C : in STD_LOGIC;
+           SUM : out STD_LOGIC;
+           CAR : out STD_LOGIC);
+          end component;
+          signal c0 : STD_LOGIC;
+
+begin
+g1 : FA port map ( A => a0, B => b0, C => '0', SUM => s0, CAR => c0);
+g2 : FA port map ( A => a1, B => b1, C => c0, SUM => s1, CAR => ca);
+
+end dataflow;
