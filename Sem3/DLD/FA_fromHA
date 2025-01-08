@@ -1,0 +1,58 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 11.12.2024 20:05:33
+-- Design Name: 
+-- Module Name: FA_fromHA - dataflow
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity FA_fromHA is
+Port ( X : in STD_LOGIC;
+           Y : in STD_LOGIC;
+           Z : in STD_LOGIC;
+           sum : out STD_LOGIC;
+           car : out STD_LOGIC);
+end FA_fromHA;
+
+architecture dataflow of FA_fromHA is
+    component HA is
+        Port ( A : in STD_LOGIC;
+               B : in STD_LOGIC;
+               Sum : out STD_LOGIC;
+               Car : out STD_LOGIC);
+        end component;
+        signal s1:std_logic;
+        signal c1:std_logic;
+        signal c2:std_logic;
+    
+begin
+g1 : HA port map ( A=>X, B=>Y, Sum=>s1, Car=>c1);
+g2 : HA port map ( A=>s1, B=>Z, Sum=>sum, Car=>c2);
+car <= c1 OR c2; 
+
+end dataflow;
