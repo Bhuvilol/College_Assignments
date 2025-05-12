@@ -29,7 +29,7 @@ locker/
 openssl version
 ``` 
 ## How to Run
-Install dependencies (Tkinter is usually included with Python):
+> TO install dependencies (Tkinter is usually included with Python):
 
 ```bash
 pip install tk
@@ -38,6 +38,12 @@ pip install tk
 ## Run the app:
 ```bash
 python start.py
+```
+
+## Run the app directly:
+Double click on start.exe file to launch the application directly.
+```
+/dist/start.exe
 ```
 
 ## How It Works
