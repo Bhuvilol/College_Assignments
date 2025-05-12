@@ -29,7 +29,7 @@ locker/
 openssl version
 ``` 
 ## How to Run
-> TO install dependencies (Tkinter is usually included with Python):
+> To install dependencies (Tkinter is usually included with Python):
 
 ```bash
 pip install tk
