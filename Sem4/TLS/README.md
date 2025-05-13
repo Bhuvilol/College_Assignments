@@ -14,9 +14,13 @@ This is a simple Python desktop app that helps you encrypt and decrypt files sec
 
 locker/
 ├── start.py # Main entry point
+
 ├── screen.py # GUI and app logic
+
 ├── lock.py # File encryption logic
+
 ├── open.py # File decryption logic
+
 └── README.md # This file
 
 ## Requirements
